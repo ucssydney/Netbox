@@ -383,7 +383,7 @@ export NETBOX_TOKEN="${API_TOKEN}"
 export VENDORS="Ubiquiti,Cisco,Lenovo,Fortinet,tp-link,Dell,HP,HPE,HPE Aruba,Synology"
 
 info "Running import for all selected vendors..."
-python3 import_devices.py
+python3 nb-dt-import.py
 
 deactivate
 
